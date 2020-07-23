@@ -1,34 +1,38 @@
-.firstInput {
-    margin: 20px;
-    padding: 10px;
-    border-radius: 5px;
+* {
+    box-sizing: content-box;
 }
+
 #row {
-    border: 2px solid blue; 
-    padding: 5px;
-}
-.secendInput {
+    border: 2px solid blue;
     margin: 20px;
     padding: 10px;
     border-radius: 5px;
 }
+
 #column {
-    border: 2px solid blue; 
-    padding: 5px;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 .secendButton {
     padding: 5px;
 }
+
 .header {
     position: relative;
 }
-#table1{
+
+#table1 {
+    border-collapse: collapse;
     position: absolute;
-    left: 145px;
-    border: 2px solid;
-    padding: 20px;
+    left: 195px;
+    table-layout: fixed;
 }
+
 td {
-    border: 2px solid;
     padding: 20px;
+    text-align: left;
+    border: 2px solid;
 }
